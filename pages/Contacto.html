@@ -10,25 +10,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
-      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">    
 </head>
 <body class="fondo-principal" >  
+    <div class="container">
 <header>
 
   <img class="banner" src="../imagenes/banner.jpg" alt="logo">
 
    
-   <nav >
+   <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
    
         
-            <ul class="padre-flex">
+            <ul class="padre-flex navbar-nav">
 
-               <li class="menu"><a href="../index.html">Inicio</a></li>
-                <li class="menu"><a href="Productos.html">Productos</a></li>
-                <li class="menu"><a href="Guia-de-talles.html">Guia-de-talles</a></li>
-                <li class="menu"><a href="Contacto.html">Contacto</a></li>
-                <li class="menu"><a href="Promociones.html">Promociones</a></li>
+               <li class="menu nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li class="menu nav-item"><a class="nav-link" href="Productos.html">Productos</a></li>
+                <li class="menu nav-item"><a class="nav-link" href="Guia-de-talles.html">Guia-de-talles</a></li>
+                <li class="menu nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+                <li class="menu nav-item"><a class="nav-link" href="Promociones.html">Promociones</a></li>
             </ul>
+
+        </div>
+    </div>
         </nav>
 
         </header>
@@ -38,7 +48,7 @@
     <form action="" method="" enctype="">
         <div class="fondo">
             <h1 class="titulo">Contacto</h1>
-        </div>
+        </div >
 
         <div class="contacto">
             <label class="titulo-secundario" for="Nombre"> Nombre </label>
@@ -79,7 +89,7 @@
 <img src="../imagenes/Calu clothingg (6).png" alt="logo" width="60" height="60">
 
 </footer>
-
+</div>
     
 </body>
 </html>

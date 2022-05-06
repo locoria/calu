@@ -10,6 +10,7 @@
     flex-direction:row ;
     justify-content:center;
     justify-content:space-around;
+    
 
     }
 
@@ -52,6 +53,7 @@ p{
     font-family: 'Cinzel Decorative', cursive;
     text-decoration: none;
     font-size:large;
+    
   
 }
 
@@ -137,9 +139,7 @@ p{
     width: 500px;
 }
 
-.header__icono {
-    display: none;
-}
+
 
 
     @media screen and (max-width:769px) {
