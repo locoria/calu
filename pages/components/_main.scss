@@ -35,7 +35,7 @@ p{
 }
 .fondo {
     background-position: center;
-   background-color:$bgcolor;
+   background-color:#ffffff;
     background-size: contain;
     
 }
@@ -49,15 +49,19 @@ p{
 
 .menu {
     display: flex;
-    background-color: $bgcolor;
+    background-color:#F6CED8;
+
     font-family: 'Cinzel Decorative', cursive;
     text-decoration: none;
     font-size:large;
+    padding: auto;
+    justify-content: center;
+    
     
   
 }
 
-.titulo-secundario{
+.titulo-secundario {
 
     font-family: 'Cinzel Decorative', cursive;
     font-size: 25px;
@@ -71,6 +75,7 @@ p{
     flex-direction: row;
     height: 100%;
     width: 100%;
+    margin-top: 10px;
     
     
     
@@ -79,14 +84,12 @@ p{
     border-right: solid 5px black;
     border-bottom: solid 5px black;
     border-left:  solid 5px black;
+    border-radius: 10px;
     display: inline-block
     
-   
-   
-
 
 }
-.caja-producto{
+.caja-producto {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
@@ -238,6 +241,7 @@ p{
     }
 
 }
+
 .floating {
 animation-name: flotante;
     animation-duration: 3s;
@@ -246,10 +250,9 @@ animation-name: flotante;
 margin-left: 30px;
 margin-top: 5px;
 padding: 22px;
-
-
     
 }
+
 
 @keyframes flotante {
     0% {
