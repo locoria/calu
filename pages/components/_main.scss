@@ -18,6 +18,7 @@ p{
     color: rgb(3, 3, 3);
     display: inline;
     background-color: #F6CED8;
+    padding-top: 15px ;
 }
 
 
@@ -35,7 +36,7 @@ p{
 }
 .fondo {
     background-position: center;
-   background-color:#ffffff;
+   background-color:$bgcolor;
     background-size: contain;
     
 }
@@ -192,6 +193,8 @@ p{
     
     .footer {
         flex-direction:row;
+        padding-top: 20px;
+        padding-inline-end: 20px;
     }
 }
     
@@ -232,6 +235,7 @@ p{
 
     .footer {
         flex-direction: column;
+        padding: 20px;
     }
     .img-whatsapp {
         width: 100%;
